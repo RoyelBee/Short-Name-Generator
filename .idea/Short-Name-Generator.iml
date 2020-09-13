@@ -7,5 +7,6 @@
     <orderEntry type="jdk" jdkName="Python 3.8 (Short-Name-Generator)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="AHD_GPM" />
+    <orderEntry type="module" module-name="Best-on-Python" />
   </component>
 </module>

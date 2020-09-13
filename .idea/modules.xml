@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../AHD_GPM/.idea/AHD_GPM.iml" filepath="$PROJECT_DIR$/../AHD_GPM/.idea/AHD_GPM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Best-on-Python/.idea/Best-on-Python.iml" filepath="$PROJECT_DIR$/../Best-on-Python/.idea/Best-on-Python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Short-Name-Generator.iml" filepath="$PROJECT_DIR$/.idea/Short-Name-Generator.iml" />
     </modules>
   </component>

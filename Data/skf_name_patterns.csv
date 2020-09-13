@@ -1,0 +1,147 @@
+﻿actual,short,HNDActual,HNDShort
+Association,ASSOC,and ,&
+Aushadhalay,AUSHAD,Aoushadhalaya,AUSHAD
+Aushad Ghar,AUSHAD,Provita,PROV
+Banasree,BANAS,FEED, 
+(BANGLADESH),BD,Feed, 
+Bangladesh,BD,Osadholay,AUSHAD
+Cantonment,CANT,Center, 
+Cardiology,CRD,Central, 
+Center,CNTR,Treders,TRD
+Central,CENT,Treder,TRD
+Chamber,CHAM,Fisharish,FISHER
+Chikistsaloy,CHIKT,Limited,LTD
+Chittaagong,CTG,Chikishaloy,CHIKT
+Clinic,CLC,Feed, 
+College,COL,FEED, 
+Commission,COMM,Ltd., 
+Comission,COMM,Limited, 
+Communication,CMNTY,Limited., 
+Community,COMMU,BD.,BD
+Complex,CMPLX,Association,ASSOC
+Consolation,CN,Aushadhalay,AUSHAD
+Consultation,CN,Aushad Ghar,AUSHAD
+Consultant,CN,Banasree,BANAS
+Corner,CRNR,(BANGLADESH),BD
+Corner,CRNR,Bangladesh,BD
+Corporate,COR,Cantonment,CANT
+Corporation,CORP,Cardiology,CRD
+Culture,CUL,Chamber,CHAM
+Dental,DNTL,Chikistsaloy,CHIKT
+Departmental,DEPT,Chittaagong,CTG
+Diabetic,DES,Clinic,CLC
+Diabetics,DES,College,COL
+Diagonostic,DAG,Commission,COMM
+Diagnostic,DAG,Comission,COMM
+Digital,DIGI,Communication,CMNTY
+Dispenchary,DISP,Community,COMMU
+Distribution,DIST,Complex,CMPLX
+Distributor,DIST,Consolation,CN
+Doctor,DOC,Consultation,CN
+Drug,DRG,Consultant,CN
+Electric,ELC,,
+Employee,EMP,,
+Enterprise,ENT,,
+Fisheries,FISHER,,
+Foundation,FNDN,Corporate,COR
+Fowndetion,FND,Corporation,CORP
+General,GEN,Culture,CUL
+Genaral,GEN,Dental,DNTL
+Gulshan Tower,GT,Departmental,DEPT
+Hatchery,HAT,Diabetic,DES
+Herbal,HRBL,Diabetics,DES
+Hospital,HOSP,Diagonostic,DAG
+Industries,INDUS,Diagnostic,DAG
+Institute,INST,Digital,DIGI
+International,INTL,Dispenchary,DISP
+Intregration,INTGRA,Distribution,DIST
+Investment,INVEST,Distributor,DIST
+Logistics,LOG,Doctor,DOC
+Management,MGMT,Drug,DRG
+Managing Director,MD,Electric,ELC
+Medical,MED,Employee,EMP
+Medicare,MEDI,Enterprise,ENT
+Medicine,MDCN,Fisheries,FISHER
+MEDICINE,MDCN,Foundation,FNDN
+Medicin,MDCN,Fowndetion,FND
+Madicine,MDCN,General,GEN
+Medicine,MDCN,Genaral,GEN
+Medico,MEDC,Gulshan Tower,GT
+Memorial,MEMO,Hatchery,HAT
+Metropolitan,METRO,Herbal,HRBL
+Model,MDL,Hospital,HOSP
+Modern,MDRN,Industries,INDUS
+Not Applicable,N/A,Institute,INST
+Nurshing,NSG,International,INTL
+Nursing,NSG,Intregration,INTGRA
+Office,OFF,Investment,INVEST
+Office & Others,OFF&OTRS,Logistics,LOG
+Orthopaedic,ORTHO,Management,MGMT
+Organisation,ORG,Managing Director,MD
+Others,OTRS,Medical,MED
+Oushadhaloy,AUSHD,Medicare,MEDI
+Pathology,PATH,Medicine,MDCN
+Pharmaceutical,PHARMA,MEDICINE,MDCN
+Pharmacitical,PHARMA,Medicin,MDCN
+Farma,PHAR,Madicine,MDCN
+pharmacy,PHAR,Medicine,MDCN
+Pharmacy,PHAR,Medico,MEDC
+Private,PVT,Memorial,MEMO
+Professors,PROF,Metropolitan,METRO
+Project,PROJ,,
+Poultry,POUL,Modern,MDRN
+Scientific,SCI,Not Applicable,N/A
+Surgical,SURG,Nurshing,NSG
+Sergical,SURG,Nursing,NSG
+Sergical,SURG,Office,OFF
+Services,SER,Office & Others,OFF&OTRS
+Specialized,SPC,Orthopaedic,ORTHO
+Store,STR,Organisation,ORG
+Sub Distributor,SUB-DIST,Others,OTRS
+Super,SUP,Oushadhaloy,AUSHD
+Technology,TECH,Pathology,PATH
+Telicom,TEL,Pharmaceutical,PHARMA
+Tetultala Khilkhet Express,TETU KHIL EXP,Pharmacitical,PHARMA
+Traders,TRD,Farma,PHAR
+Treatment,TRT,pharmacy,PHAR
+Varities,VARIE,Pharmacy,PHAR
+Varrietise,VARIE,Private,PVT
+Veterinary,VAT,Professors,PROF
+Medical Hall,MED,Project,PROJ
+Hall, ,Poultry,POUL
+hall, ,Scientific,SCI
+Model, ,Surgical,SURG
+pharmacy,PHAR,Sergical,SURG
+Pharma,PHAR,Sergical,SURG
+Madical,MED,Services,SER
+Mr., ,Specialized,SPC
+MR. , ,Store, 
+DR., ,Sub Distributor,SUB-DIST
+Dr., ,Super,SUP
+MD., ,Technology,TECH
+Md., ,Telicom,TEL
+Rangpur,RNG,Tetultala Khilkhet Express,TETU KHIL EXP
+M S , ,Traders,TRD
+MS , ,Treatment,TRT
+Accounts,ACC,Varities,VARIE
+Account,ACC,Varrietise,VARIE
+,,Veterinary,VAT
+,,Medical Hall,MED
+,,Hall, 
+,,hall, 
+,,Model, 
+,,pharmacy,PHAR
+,,Pharma,PHAR
+,,Madical,MED
+,,Mr., 
+,,MR. , 
+,,DR., 
+,,Dr., 
+,,MD., 
+,,Md., 
+,,Rangpur,RNG
+,,M S , 
+,,MS , 
+,,Accounts,ACC
+,,Account,ACC
+,,And ,&

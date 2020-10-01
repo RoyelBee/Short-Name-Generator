@@ -1,0 +1,72 @@
+--DAG
+SELECT   [IDCUST],[NAMECUST],[CUSTYPEDESC],[AUDTORG]                    
+	from ARCDAG.dbo.CustomerInformation  where IDCUST not in (select IDCUST from ARCDAG.dbo.Customer_ShortName)
+
+--CBD
+SELECT		  ARCCBD.dbo.CustomerInformation.IDCUST,ARCCBD.dbo.CustomerInformation.NAMECUST
+		,ARCCBD.dbo.CustomerInformation.CUSTYPEDESC
+		,ARCCBD.dbo.CustomerInformation.AUDTORG                    
+             from ARCCBD.dbo.CustomerInformation LEFT OUTER JOIN
+             ARCCBD.dbo.Customer_ShortName ON ARCCBD.dbo.CustomerInformation.IDCUST = ARCCBD.dbo.Customer_ShortName.IDCUST
+	     where ARCCBD.dbo.Customer_ShortName.IDCUST is null
+--MLF
+SELECT  [IDCUST], [NAMECUST], CUSTYPEDESC, [AUDTORG]
+from ARCMLF.dbo.CustomerInformation  where IDCUST not in (select IDCUST from ARCMLF.dbo.Customer_ShortName)
+
+
+-----SNC NEW
+SELECT CustomerInformation.IDCUST, CustomerInformation.NAMECUST,
+     CustomerInformation.CUSTYPE,
+              CustomerInformation.CUSTYPEDESC, CustomerInformation.AUDTORG                  
+        from CustomerInformation LEFT OUTER JOIN
+        Customer_ShortName ON CustomerInformation.IDCUST = Customer_ShortName.IDCUST
+        AND CustomerInformation.AUDTORG = Customer_ShortName.AUDTORG
+              where Customer_ShortName.IDCUST is null
+ 
+---SKF NEW (regular check SKF this Customer = '3209110214I'-BOGSKF)
+
+SELECT  CustomerInformation.IDCUST,CustomerInformation.NAMECUST,
+	CustomerInformation.CUSTYPEDESC, customerinformation.AUDTORG
+        from ARCHIVESKF.dbo.CustomerInformation LEFT OUTER JOIN
+        ARCHIVESKF.dbo.Customer_ShortName ON Rtrim(ltrim(CustomerInformation.IDCUST)) =
+		 Rtrim(ltrim(Customer_ShortName.IDCUST))
+        AND CustomerInformation.AUDTORG = Customer_ShortName.AUDTORG
+        where Customer_ShortName.IDCUST is null
+
+--ONC
+SELECT CustomerInformation.IDCUST,
+              CustomerInformation.NAMECUST,
+        CustomerInformation.CUSTYPEDESC,
+        CustomerInformation.AUDTORG                  
+        from ARCHIVESKFONC.dbo.CustomerInformation 
+              LEFT OUTER JOIN
+        ARCHIVESKFONC.dbo.Customer_ShortName 
+              ON 
+              CustomerInformation.IDCUST = Customer_ShortName.IDCUST
+        AND CustomerInformation.AUDTORG = Customer_ShortName.AUDTORG
+                                where Customer_ShortName.IDCUST is null
+
+--TCPL
+select IDCUST,ZONEID,ZONENAME,NAMECUST,CUSTYPEDESC,AUDTORG,CUSTYPE from CustomerInformation
+where IDCUST not in (SELECT IDCUST FROM Shortname_Customer)
+
+-----SERVIER
+SELECT CustomerInformation.IDCUST, CustomerInformation.NAMECUST,
+              CustomerInformation.CUSTYPEDESC, CustomerInformation.AUDTORG         
+        from CustomerInformation LEFT OUTER JOIN
+        Customer_ShortName ON RTRIM(LTRIM( CustomerInformation.IDCUST)) = RTRIM(LTRIM( Customer_ShortName.IDCUST))
+        AND CustomerInformation.AUDTORG = Customer_ShortName.AUDTORG
+                                where Customer_ShortName.IDCUST is null 
+
+-----HND
+select IDCUST,NAMECUST,CUSTYPEDESC,AUDTORG from CustomerInformation 
+where IDCUST not in (select IDCUST from Customer_ShortName)
+
+
+-----NOVO
+SELECT CustomerInformation.IDCUST, CustomerInformation.NAMECUST,
+              CustomerInformation.CUSTYPEDESC, CustomerInformation.AUDTORG         
+        from CustomerInformation LEFT OUTER JOIN
+        Customer_ShortName ON RTRIM(LTRIM( CustomerInformation.IDCUST)) = RTRIM(LTRIM( Customer_ShortName.IDCUST))
+        AND CustomerInformation.AUDTORG = Customer_ShortName.AUDTORG
+                                where Customer_ShortName.IDCUST is null 

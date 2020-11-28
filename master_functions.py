@@ -6,14 +6,14 @@ import datetime
 
 # server connections
 skf_conn = db.connect('DRIVER={SQL Server};'
-                      'SERVER=137.116.139.217;'
+                      'SERVER=---------;'
                       'DATABASE=ARCHIVESKF;'
-                      'UID=sa;PWD=erp@123')
+                      'UID=------;PWD=-----------')
 
 hnd_conn = db.connect('DRIVER={SQL Server};'
-                      'SERVER=137.116.139.217;'
+                      'SERVER=--------;'
                       'DATABASE=ARCHND;'
-                      'UID=sa;PWD=erp@123')
+                      'UID=----;PWD=--------')
 
 skf_full_name_query = """SELECT  CustomerInformation.IDCUST,CustomerInformation.NAMECUST,
             CustomerInformation.CUSTYPEDESC, customerinformation.AUDTORG
